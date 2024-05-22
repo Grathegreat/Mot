@@ -1,9 +1,9 @@
 module.exports.config = {
-    name: 'sim',
+    name: 'carl',
     version: '1.0.0',
     role: 0,
     description: "Engage in conversation with an AI bot",
-    usage: "sim [prompt]",
+    usage: "carl [prompt]",
     credits: 'Developer',
     cooldown: 3,
 };
@@ -13,7 +13,7 @@ module.exports.run = async function({ api, event, args }) {
     const input = args.join(" ");
 
     if (!input) {
-        api.sendMessage("Please provide a text prompt. Usage: sim [text]", event.threadID, event.messageID);
+        api.sendMessage("Please provide a text prompt. Usage: carl [text]", event.threadID, event.messageID);
         return;
     }
     try {  
