@@ -1,14 +1,14 @@
 {
   "name": "auto-messenger-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Simple Facebook Messenger Chat Bot",
   "main": "index.js",
   "scripts": { 
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mot Mot Oyamat",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
